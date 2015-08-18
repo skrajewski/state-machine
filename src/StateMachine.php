@@ -53,7 +53,7 @@ class StateMachine implements StateMachineInterface
     }
 
     /**
-     * @param State $state
+     * @inheritdoc
      */
     public function addState(State $state)
     {
@@ -61,9 +61,7 @@ class StateMachine implements StateMachineInterface
     }
 
     /**
-     * Get current state from controlled object
-     *
-     * @return string
+     * @inheritdoc
      */
     public function getCurrentState()
     {
@@ -71,9 +69,7 @@ class StateMachine implements StateMachineInterface
     }
 
     /**
-     * Get all states from FSM
-     *
-     * @return array
+     * @inheritdoc
      */
     public function getAllStates()
     {
