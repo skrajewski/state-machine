@@ -1,6 +1,9 @@
 {
     "name": "szykra/state-machine",
+    "description": "Simple Finite State Machine implementation",
     "version": "0.1.0",
+    "keywords": ["state machine", "finite state machine", "fsm"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Szymon Krajewski",
