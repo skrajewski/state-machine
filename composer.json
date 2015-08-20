@@ -1,5 +1,6 @@
 {
     "name": "szykra/state-machine",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "Szymon Krajewski",
